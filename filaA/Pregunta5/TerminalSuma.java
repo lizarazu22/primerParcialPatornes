@@ -9,6 +9,8 @@ public class TerminalSuma extends AbstractExpresion{
         if (context.input.startsWith("sumar")) {
             context.signo=1;
             context.input = context.input.substring(this.amountDigit);
+
+            //gracias inge
         }
     }
 }
