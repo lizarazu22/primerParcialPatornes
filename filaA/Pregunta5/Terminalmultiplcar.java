@@ -6,7 +6,7 @@ public class TerminalResta extends AbstractExpresion{
 
     @Override
     public void interpreter(Context context) {
-        if(context.input.startsWith("multiplicar")){
+        if(context.input.startsWith("multiplicars")){
             context.signo=-1;
             context.input= context.input.substring(this.amountDigit);
         }
